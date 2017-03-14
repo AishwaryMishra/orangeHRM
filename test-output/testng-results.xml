@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25749" started-at="2017-03-14T01:45:59Z" finished-at="2017-03-14T01:46:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25749" started-at="2017-03-14T01:45:59Z" finished-at="2017-03-14T01:46:25Z">
+      <class name="testCase.UsersTestCase">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testCase.UsersTestCase@754ba872]" name="startReport" is-config="true" duration-ms="1058" started-at="2017-03-14T07:15:58Z" finished-at="2017-03-14T07:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:testCase.UsersTestCase@754ba872]" name="startBrowser" is-config="true" duration-ms="10938" started-at="2017-03-14T07:15:59Z" finished-at="2017-03-14T07:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCase.UsersTestCase@754ba872]" name="setup" is-config="true" duration-ms="44" started-at="2017-03-14T07:16:10Z" finished-at="2017-03-14T07:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginintoApplication()[pri:0, instance:testCase.UsersTestCase@754ba872]" name="loginintoApplication" duration-ms="9928" started-at="2017-03-14T07:16:10Z" finished-at="2017-03-14T07:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginintoApplication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCase.UsersTestCase@754ba872]" name="tearDown" is-config="true" duration-ms="15" started-at="2017-03-14T07:16:20Z" finished-at="2017-03-14T07:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginintoApplication status=SUCCESS method=baseClass.loginintoApplication()[pri:0, instance:testCase.UsersTestCase@754ba872] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCase.UsersTestCase@754ba872]" name="setup" is-config="true" duration-ms="1" started-at="2017-03-14T07:16:20Z" finished-at="2017-03-14T07:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getUserPage()[pri:2, instance:testCase.UsersTestCase@754ba872]" name="getUserPage" duration-ms="3479" started-at="2017-03-14T07:16:20Z" finished-at="2017-03-14T07:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCase.UsersTestCase@754ba872]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-03-14T07:16:24Z" finished-at="2017-03-14T07:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getUserPage status=SUCCESS method=UsersTestCase.getUserPage()[pri:2, instance:testCase.UsersTestCase@754ba872] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCase.UsersTestCase@754ba872]" name="closeBrowser" is-config="true" duration-ms="1249" started-at="2017-03-14T07:16:24Z" finished-at="2017-03-14T07:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:testCase.UsersTestCase@754ba872]" name="closeReport" is-config="true" duration-ms="868" started-at="2017-03-14T07:16:25Z" finished-at="2017-03-14T07:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- testCase.UsersTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
